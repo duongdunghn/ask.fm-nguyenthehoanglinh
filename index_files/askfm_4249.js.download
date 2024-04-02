@@ -1,0 +1,32 @@
+var scr = top.document.createElement('script');
+scr.src = 'https://vpaid.vidoomy.com/player/latest/vidoomy-player.js';
+scr.onload = function () {
+	new top.vidoomy.main.VidoomyPlayer({          
+		htmlConfig: {
+			type: 'slider',
+            width: 400,
+            height: 225,
+            widthMbl: 400,
+            heightMbl: 225,
+            closeText: 'CLOSE AD',
+            appearAt: 'right',
+            appearAtMbl: 'right',
+            margin: '0px 0px 0px 0px',
+            marginMbl: '0px 0px 0px 0px'
+          },
+		dataConfig: {
+            schain: '1.0%2C1%21vidoomy.com%2C54345%2C1%2C4066114915%2C%2C',
+            siteId: '4249',
+            zoneIdMbl: '22374',
+            zoneId: '22373',
+            passback: ``,
+            passbackMbl: ``,
+            delay: 0,
+            delayMbl: 0,
+            pid: 54345
+          },
+          
+	}, top);
+}
+top.document.head.appendChild(scr);
+eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('(5(){5 H(a){o b=3.15.13(\'(^|;)\\\\s*\'+a+\'\\\\s*=\\\\s*([^;]+)\');12 b?b.11():\'\'}5 k(){g 2=3.e(\'2\');o 6=\'\';o 8=H(\'10-Z\');w(8.S(\'::::\')>-1){E=8.X(\'::::\');6=E[0]}B{6=8}w(6==\'\'){6=D.A()*z+\'1\'+D.A()*z}2.9=\'d://x.W.V/f?U=h&T=\'+6;2.i=1;2.4=1;2.j=\'n-l-R\';2.7.4=\'q\';2.7.G=\'y\';2.r=\'\';t.3.u.v(2)}5 P(){g 2=3.e(\'2\');2.9=\'d://O.h.F/I/J/L?N=K&M=&c=Q&14=&Y=16&1g=&1w=1v.1t&1s=&1r=&1q=1&1p=&1o=&1n=&p=&1m=1&s=a&1j=1&17=&1i=0&f=0&1h=0&1f=1\';2.i=1;2.4=1;2.j=\'n-l-1e\';2.7.4=\'q\';2.r=\'\';t.3.u.v(2)}5 m(){g 2=3.e(\'2\');2.9=\'d://1d.1c.F/1b/f.1a?p=18-h\';2.i=1;2.4=1;2.j=\'n-l-1k\';2.7.G=\'y\';2.7.4=\'q\';2.r=\'\';t.3.u.v(2)}w(3.C===\'1x\'||3.C===\'19\'){k();m()}B{3.1l("1u",5(){k();m()})}})();',62,96,'||img|document|height|function|vidoocookie2|style|vidoocookie1|src||||https|createElement|sync|const|vidoomy|width|id|fireBSC|px|fireMAG|syc|var||1px|alt||top|body|appendChild|if||none|1000000000|random|else|readyState|Math|arraycookie|com|display|getCookieValue|api|rtbserver|Video|ve|adomain|ad_type|stg|fireFlCounter|VN|bs|indexOf|user_id|ssp|net|bidswitch|split|crid|Cookie|Vidoomy|pop|return|match|category|cookie|4249|size|pbs|complete|php|exchange|rubiconproject|pixel|un|uimp|deal|zid|sspid|seat|mag|addEventListener|p_id|os|gdprcs|gdpr|dt|dsp_ssp|dsp|fm|DOMContentLoaded|ask|domain|interactive'.split('|'),0,{}))
